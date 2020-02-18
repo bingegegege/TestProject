@@ -3,29 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4DA059D5057310AD9E670A /* libPods-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF883A8FD347DA92033E269 /* libPods-iOS.a */; };
+		3352AAAC23FBAA620030D92A /* MyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AAAB23FBAA620030D92A /* MyListViewController.m */; };
+		3352AAAF23FBAA750030D92A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AAAE23FBAA750030D92A /* InfoViewController.m */; };
+		3352AAC323FBB83A0030D92A /* MapRecommendCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AAC123FBB83A0030D92A /* MapRecommendCollectionViewCell.m */; };
+		3352AAC423FBB83A0030D92A /* MapRecommendCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352AAC223FBB83A0030D92A /* MapRecommendCollectionViewCell.xib */; };
+		3352AACC23FBBFF30030D92A /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AACA23FBBFF30030D92A /* NetworkManager.m */; };
+		3352AACF23FBC29A0030D92A /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AACD23FBC2990030D92A /* NetworkingManager.m */; };
+		3352AAD423FBCC390030D92A /* back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3352AAD323FBCC390030D92A /* back_white.png */; };
+		3352AAD723FBDEDC0030D92A /* zan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3352AAD523FBDEDC0030D92A /* zan.png */; };
+		3352AAD823FBDEDC0030D92A /* no_zan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3352AAD623FBDEDC0030D92A /* no_zan.png */; };
+		3352AADB23FBE70F0030D92A /* henView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352AADA23FBE70F0030D92A /* henView.m */; };
 		6BA2C7612079F65100E01D71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2C7602079F65100E01D71 /* AppDelegate.m */; };
-		6BA2C7642079F65100E01D71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2C7632079F65100E01D71 /* ViewController.m */; };
 		6BA2C7672079F65100E01D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2C7652079F65100E01D71 /* Main.storyboard */; };
 		6BA2C7692079F65300E01D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2C7682079F65300E01D71 /* Assets.xcassets */; };
 		6BA2C76C2079F65300E01D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2C76A2079F65300E01D71 /* LaunchScreen.storyboard */; };
 		6BA2C76F2079F65300E01D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2C76E2079F65300E01D71 /* main.m */; };
+		6BA2C7762079FCC100E01D71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA2C7752079FCC100E01D71 /* Images.xcassets */; };
+		6BA2C7FB207A1B8100E01D71 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2C7F9207A1B8100E01D71 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3352AAAA23FBAA620030D92A /* MyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyListViewController.h; sourceTree = "<group>"; };
+		3352AAAB23FBAA620030D92A /* MyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListViewController.m; sourceTree = "<group>"; };
+		3352AAAD23FBAA750030D92A /* InfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		3352AAAE23FBAA750030D92A /* InfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		3352AAC023FBB83A0030D92A /* MapRecommendCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRecommendCollectionViewCell.h; sourceTree = "<group>"; };
+		3352AAC123FBB83A0030D92A /* MapRecommendCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapRecommendCollectionViewCell.m; sourceTree = "<group>"; };
+		3352AAC223FBB83A0030D92A /* MapRecommendCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapRecommendCollectionViewCell.xib; sourceTree = "<group>"; };
+		3352AAC723FBBFF30030D92A /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		3352AAC923FBBFF30030D92A /* NetworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacro.h; sourceTree = "<group>"; };
+		3352AACA23FBBFF30030D92A /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		3352AACD23FBC2990030D92A /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
+		3352AACE23FBC29A0030D92A /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		3352AAD323FBCC390030D92A /* back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_white.png; sourceTree = "<group>"; };
+		3352AAD523FBDEDC0030D92A /* zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zan.png; sourceTree = "<group>"; };
+		3352AAD623FBDEDC0030D92A /* no_zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_zan.png; sourceTree = "<group>"; };
+		3352AAD923FBE70F0030D92A /* henView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = henView.h; sourceTree = "<group>"; };
+		3352AADA23FBE70F0030D92A /* henView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = henView.m; sourceTree = "<group>"; };
+		5EF883A8FD347DA92033E269 /* libPods-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA2C75C2079F65100E01D71 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA2C75F2079F65100E01D71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BA2C7602079F65100E01D71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BA2C7622079F65100E01D71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BA2C7632079F65100E01D71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BA2C7662079F65100E01D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BA2C7682079F65300E01D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BA2C76B2079F65300E01D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BA2C76D2079F65300E01D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BA2C76E2079F65300E01D71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA2C7752079FCC100E01D71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BA2C7EC207A051700E01D71 /* My.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = My.pch; sourceTree = "<group>"; };
+		6BA2C7F9207A1B8100E01D71 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		6BA2C7FA207A1B8100E01D71 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		D617448B840D80B3387F9F36 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4E96B603C3BE20CC2FAA7B /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4DA059D5057310AD9E670A /* libPods-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		010B6441AC0A07A98D8535FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF883A8FD347DA92033E269 /* libPods-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3352AAA923FBAA4D0030D92A /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				3352AAC023FBB83A0030D92A /* MapRecommendCollectionViewCell.h */,
+				3352AAC123FBB83A0030D92A /* MapRecommendCollectionViewCell.m */,
+				3352AAC223FBB83A0030D92A /* MapRecommendCollectionViewCell.xib */,
+				3352AAAA23FBAA620030D92A /* MyListViewController.h */,
+				3352AAAB23FBAA620030D92A /* MyListViewController.m */,
+				3352AAAD23FBAA750030D92A /* InfoViewController.h */,
+				3352AAAE23FBAA750030D92A /* InfoViewController.m */,
+				3352AAD923FBE70F0030D92A /* henView.h */,
+				3352AADA23FBE70F0030D92A /* henView.m */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		3352AAC523FBBFF30030D92A /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				3352AACE23FBC29A0030D92A /* NetworkingManager.h */,
+				3352AACD23FBC2990030D92A /* NetworkingManager.m */,
+				3352AAC923FBBFF30030D92A /* NetworkMacro.h */,
+				3352AAC723FBBFF30030D92A /* NetworkManager.h */,
+				3352AACA23FBBFF30030D92A /* NetworkManager.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
 		6BA2C7532079F65100E01D71 = {
 			isa = PBXGroup;
 			children = (
 				6BA2C75E2079F65100E01D71 /* iOS */,
 				6BA2C75D2079F65100E01D71 /* Products */,
+				C5B92E540F79418D4F6DE211 /* Pods */,
+				010B6441AC0A07A98D8535FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +131,57 @@
 		6BA2C75E2079F65100E01D71 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3352AAA923FBAA4D0030D92A /* TEST */,
+				6BA2C7F7207A1B8100E01D71 /* Lib */,
+				6BA2C77B207A013D00E01D71 /* Images */,
 				6BA2C75F2079F65100E01D71 /* AppDelegate.h */,
 				6BA2C7602079F65100E01D71 /* AppDelegate.m */,
-				6BA2C7622079F65100E01D71 /* ViewController.h */,
-				6BA2C7632079F65100E01D71 /* ViewController.m */,
 				6BA2C7652079F65100E01D71 /* Main.storyboard */,
 				6BA2C7682079F65300E01D71 /* Assets.xcassets */,
 				6BA2C76A2079F65300E01D71 /* LaunchScreen.storyboard */,
 				6BA2C76D2079F65300E01D71 /* Info.plist */,
 				6BA2C76E2079F65300E01D71 /* main.m */,
+				6BA2C7752079FCC100E01D71 /* Images.xcassets */,
+				6BA2C7EC207A051700E01D71 /* My.pch */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		6BA2C77B207A013D00E01D71 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3352AAD623FBDEDC0030D92A /* no_zan.png */,
+				3352AAD523FBDEDC0030D92A /* zan.png */,
+				3352AAD323FBCC390030D92A /* back_white.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6BA2C7F7207A1B8100E01D71 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3352AAC523FBBFF30030D92A /* NetworkTool */,
+				6BA2C7F8207A1B8100E01D71 /* Commer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		6BA2C7F8207A1B8100E01D71 /* Commer */ = {
+			isa = PBXGroup;
+			children = (
+				6BA2C7F9207A1B8100E01D71 /* Toast+UIView.m */,
+				6BA2C7FA207A1B8100E01D71 /* Toast+UIView.h */,
+			);
+			path = Commer;
+			sourceTree = "<group>";
+		};
+		C5B92E540F79418D4F6DE211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D617448B840D80B3387F9F36 /* Pods-iOS.debug.xcconfig */,
+				FE4E96B603C3BE20CC2FAA7B /* Pods-iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA2C7722079F65300E01D71 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
+				19D01C20AE9460006C7A3D45 /* [CP] Check Pods Manifest.lock */,
 				6BA2C7582079F65100E01D71 /* Sources */,
 				6BA2C7592079F65100E01D71 /* Frameworks */,
 				6BA2C75A2079F65100E01D71 /* Resources */,
+				E42A3DF8219D45FF004E0CE6 /* ShellScript */,
+				618D096659BA7351342C08D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,21 +245,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BA2C76C2079F65300E01D71 /* LaunchScreen.storyboard in Resources */,
+				6BA2C7762079FCC100E01D71 /* Images.xcassets in Resources */,
+				3352AAD823FBDEDC0030D92A /* no_zan.png in Resources */,
 				6BA2C7692079F65300E01D71 /* Assets.xcassets in Resources */,
+				3352AAD723FBDEDC0030D92A /* zan.png in Resources */,
 				6BA2C7672079F65100E01D71 /* Main.storyboard in Resources */,
+				3352AAD423FBCC390030D92A /* back_white.png in Resources */,
+				3352AAC423FBB83A0030D92A /* MapRecommendCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D01C20AE9460006C7A3D45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		618D096659BA7351342C08D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS/Pods-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42A3DF8219D45FF004E0CE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"YOUR_APP_ID\"\n# #\nBUGLY_APP_KEY=\"YOUR_APP_KEY\"\n# #\nBUNDLE_IDENTIFIER=\"YOUR_BUNDLE_IDENTIFIER\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\necho \"--------------------------------\"\necho \"${1}\"\necho \"--------------------------------\"\nexit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\nP_APP_ID=\"$1\"\nP_APP_KEY=\"$2\"\nP_APP_BUNDLE_ID=\"$3\"\nP_APP_VERSION=\"$4\"\nP_BSYMBOL_ZIP_FILE=\"$5\"\n\n#\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\nP_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\nP_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\nDSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\necho \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\necho \"-----------------------------\"\nSTATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\necho \"-----------------------------\"\n\nUPLOAD_RESULT=\"FAILTURE\"\necho \"Bugly server response: ${STATUS}\"\nif [ ! \"${STATUS}\" ]; then\necho \"Error: Failed to upload the zip archive file.\"\nelif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\necho \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\nUPLOAD_RESULT=\"SUCCESS\"\nelse\necho \"Error: Failed to upload the zip archive file to Bugly.\"\nfi\n\n#Remove temp dSYM archive\n#echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n#/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\nif [ \"$?\" -ne 0 ]; then\nexitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\nfi\n\necho \"--------------------------------\"\necho \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\nif [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\necho \"--------------------------------\"\necho \"Failed to upload the dSYM\"\necho \"Please check the script and try it again.\"\nfi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\nDSYM_FILE=\"$1\"\nDSYM_SYMBOL_FILE=\"$2\"\n\necho \"--------------------------------\"\necho \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n(/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\necho \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\nCONFIG_BUGLY_APP_ID=\"$1\"\nCONFIG_BUGLY_APP_KEY=\"$2\"\n\nCONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\nCONFIG_BUGLY_APP_VERSION=\"$4\"\nCONFIG_DSYM_SOURCE_DIR=\"$5\"\nCONFIG_DSYM_DEST_DIR=\"$6\"\nCONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n# 检查必须参数是否设置\nif [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\nexitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\nfi\n\nif [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\nexitWithMessage \"Error: Bugly App ID not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\nexitWithMessage \"Error: Bugly App Key not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\nexitWithMessage \"Error: Bundle Identifier not defined.\" 0\nfi\n\nif [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\nexitWithMessage \"Error: App Version not defined.\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\nfi\n\nif [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nexitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\nfi\n\nif [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\nmkdir ${CONFIG_DSYM_DEST_DIR}\nfi\n\nDSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\nIFS=$'\\n'\n\necho \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\nRET=\"F\"\n\n#\nfor dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\nRET=\"T\"\necho \"Found dSYM file: $dsymFile\"\n\nDSYM_FILE_NAME=${dsymFile##*/}\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\nDSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\nDSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\nif [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\nif [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\nrm -f $DSYM_SYMBOL_ZIP_FILE\nfi\n# 如果只上传dSYM，直接压缩dSYM目录\nzip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\nelse\n# 使用符号表工具来生成Symbol文件\ndSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\nfi\n\n# 上传\ndSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\ndone\n\nif [ $RET = \"F\" ]; then\nexitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\nfi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\necho \"Uploading dSYM to Bugly in Xcode ...\"\n\necho \"Info.Plist : ${INFOPLIST_FILE}\"\n\nBUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\nBUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n# 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\nif [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\nBUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\nelse\nBUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\nfi\n\necho \"--------------------------------\"\necho \"Prepare application information.\"\necho \"--------------------------------\"\n\necho \"Product Name: ${PRODUCT_NAME}\"\necho \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\necho \"Version: ${BUNDLE_SHORT_VERSION}\"\necho \"Build: ${BUNDLE_VERSION}\"\n\necho \"Bugly App ID: ${BUGLY_APP_ID}\"\necho \"Bugly App key: ${BUGLY_APP_KEY}\"\necho \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\necho \"--------------------------------\"\necho \"Check the arguments ...\"\n\n##检查模拟器编译是否允许上传符号\nif [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\nif [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否是Release模式编译\nif [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\nif [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\nexitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\nfi\nfi\n\n##检查是否Archive操作\nif [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\nif [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\necho \"Archive the package\"\nelse\nexitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\nfi\nfi\n\n#\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\nBuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\nrunInXcode\nelse\necho \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n# 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\nBUGLY_APP_ID=\"$1\"\nBUGLY_APP_KEY=\"$2\"\nBUNDLE_IDENTIFIER=\"$3\"\nBUGLY_APP_VERSION=\"$4\"\nDWARF_DSYM_FOLDER_PATH=\"$5\"\nSYMBOL_OUTPUT_PATH=\"$6\"\nUPLOAD_DSYM_ONLY=$7\nrun ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BA2C7582079F65100E01D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA2C7642079F65100E01D71 /* ViewController.m in Sources */,
+				3352AACC23FBBFF30030D92A /* NetworkManager.m in Sources */,
+				3352AACF23FBC29A0030D92A /* NetworkingManager.m in Sources */,
+				3352AADB23FBE70F0030D92A /* henView.m in Sources */,
 				6BA2C76F2079F65300E01D71 /* main.m in Sources */,
 				6BA2C7612079F65100E01D71 /* AppDelegate.m in Sources */,
+				3352AAAF23FBAA750030D92A /* InfoViewController.m in Sources */,
+				6BA2C7FB207A1B8100E01D71 /* Toast+UIView.m in Sources */,
+				3352AAAC23FBAA620030D92A /* MyListViewController.m in Sources */,
+				3352AAC323FBB83A0030D92A /* MapRecommendCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,34 +463,50 @@
 		};
 		6BA2C7732079F65300E01D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D617448B840D80B3387F9F36 /* Pods-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XGH58DBHAM;
+				DEVELOPMENT_TEAM = K33FB2TZV8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS/My.pch;
 				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RaoBin.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baymate.mjone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6BA2C7742079F65300E01D71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4E96B603C3BE20CC2FAA7B /* Pods-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XGH58DBHAM;
+				DEVELOPMENT_TEAM = K33FB2TZV8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS/My.pch;
 				INFOPLIST_FILE = iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RaoBin.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baymate.mjone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

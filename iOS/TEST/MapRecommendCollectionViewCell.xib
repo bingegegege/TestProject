@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MapRecommendCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jbN-tT-oEQ">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="120"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9l-Md-igg">
+                        <rect key="frame" x="20" y="20" width="127" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUh-vL-Pgc">
+                        <rect key="frame" x="10" y="120" width="146" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="IHX-Hg-QZq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jbN-tT-oEQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="67E-s8-SGf"/>
+                <constraint firstAttribute="bottom" secondItem="PUh-vL-Pgc" secondAttribute="bottom" id="AoV-13-8cY"/>
+                <constraint firstItem="G9l-Md-igg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="GWo-Uq-A1S"/>
+                <constraint firstAttribute="trailing" secondItem="jbN-tT-oEQ" secondAttribute="trailing" id="PA0-L7-iFg"/>
+                <constraint firstAttribute="trailing" secondItem="G9l-Md-igg" secondAttribute="trailing" constant="20" id="a9p-iW-dTF"/>
+                <constraint firstItem="PUh-vL-Pgc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="bpF-NL-eew"/>
+                <constraint firstAttribute="trailing" secondItem="PUh-vL-Pgc" secondAttribute="trailing" constant="11" id="cDM-rL-WZR"/>
+                <constraint firstItem="G9l-Md-igg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="dJP-9o-SOM"/>
+                <constraint firstAttribute="bottom" secondItem="jbN-tT-oEQ" secondAttribute="bottom" constant="30" id="pHa-Tw-VTV"/>
+                <constraint firstItem="jbN-tT-oEQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="y1h-pm-qme"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="bgImageView" destination="jbN-tT-oEQ" id="jIu-ut-UCU"/>
+                <outlet property="itemTitleLab" destination="G9l-Md-igg" id="WGv-sr-nIb"/>
+                <outlet property="labelBtn" destination="PUh-vL-Pgc" id="EDE-Wt-FBR"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="110.49107142857143"/>
+        </collectionViewCell>
+    </objects>
+</document>

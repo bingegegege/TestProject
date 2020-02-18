@@ -1,0 +1,66 @@
+//
+//  My.pch
+//  iOS
+//
+//  Created by keisme on 2018/4/8.
+//  Copyright © 2018年 RaoBin. All rights reserved.
+//
+
+#ifndef My_pch
+#define My_pch
+#import "Toast+UIView.h"
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#define BOTTOM                  @"bottom"
+#define CENTER                  @"center"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define RBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define HEIGHT          [[UIScreen mainScreen] bounds].size.height
+#define WIDTH           [[UIScreen mainScreen] bounds].size.width
+#define MyblueColor          RGBA(60, 150, 233, 1)
+#define isNull(date)    [(date) == nil || [(date) isKindOfClass:[NSNull class]]
+
+#define kNavHeight              (IS_IPHONEX?88:64)//导航栏高度
+#define kSafeAreaBottomHeight   (IS_IPHONEX?34:0)//底部安全区域
+#define kStatusBarHeight        (IS_IPHONEX?44:20)//状态栏高度
+#define kTabBarHeight           (IS_IPHONEX?83:49)//Tabbar高度
+//是否为iphone4
+#define iPhone4 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )480 ) < DBL_EPSILON )
+
+//是否为iphone5
+#define iPhone5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+//是否为iphone6
+#define iPhone6 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )667 ) < DBL_EPSILON )
+
+//是否为iphone6Plus
+#define iPhone6P ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )736 ) < DBL_EPSILON )
+
+#define IS_IPHONEX              (IS_IPHONE && IS_WIDESCREEN_X)
+#define IS_IPHONE               ([[[UIDevice currentDevice] model] isEqualToString: @"iPhone"] || [[[UIDevice currentDevice] model] isEqualToString: @"iPhone Simulator"])
+#define IS_WIDESCREEN_X         (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)812) < __DBL_EPSILON__)
+
+#endif /* My_pch */
+//NSUserDefault缓存
+#define SAVEDEFAULTS(value,key) [[NSUserDefaults standardUserDefaults] setObject:value forKey:key];\
+[[NSUserDefaults standardUserDefaults] synchronize];
+#define GETDEFAULTS(key) [[NSUserDefaults standardUserDefaults] objectForKey:key];
+//删除缓存
+#define REMOVEDEFAULTS(key)     [[NSUserDefaults standardUserDefaults] removeObjectForKey:key];\
+[[NSUserDefaults standardUserDefaults] synchronize];  // 删
+#pragma mark -- 服务器URL
+#ifdef DEBUG
+// 调试状态, 测试环境url
+//公网服务器
+#define AppBase_url                       @"https://dev.baymate.cn/"
+
+#else
+// 发布状态, 正式环境url
+//公网服务器
+#define AppBase_url                       @"https://mp.baymate.cn/" //线上环境
+
+#endif
+
